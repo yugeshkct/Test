@@ -1,0 +1,22 @@
+.error {
+    font-size: 40px;
+    display: inline-block;
+    animation: er 0.5s alternate infinite;
+    text-transform: uppercase;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: red;
+}
+
+.cen {
+    margin: 20% 40% 0% 40%;
+    width: 800px;
+}
+
+@keyframes er {
+    from {
+        box-shadow: inset -3px 0px 0px rgb(225, 70, 70);
+    }
+    to {
+        box-shadow: inset -3px 0px 0px transparent;
+    }
+}

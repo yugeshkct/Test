@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(90deg, rgb(53, 184, 220), rgb(239, 89, 241));
+}
+
+.main {
+    margin-top: 9%;
+    margin-left: 20%;
+}
+
+.block {
+    background-color: azure;
+    width: 75%;
+    text-align: center;
+    padding: 55px 0;
+}
+
+.head {
+    background: linear-gradient(180deg, rgb(53, 184, 220), rgb(239, 89, 241));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.desc {
+    margin-top: 30px;
+    padding: 0px 100px;
+    text-align: center;
+    font-size: 22px;
+}
+
+form {
+    margin-top: 42px;
+}
+
+.ret {
+    border-radius: 30px;
+    padding: 13px 33px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: rgb(136, 210, 229);
+    text-transform: uppercase;
+}
+
+.ret:active {
+    transition: 0.5s;
+    transform: scale(1.075);
+}

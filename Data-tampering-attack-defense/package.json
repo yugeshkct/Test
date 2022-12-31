@@ -1,0 +1,33 @@
+{
+    "name": "data-tampering-attack-defense",
+    "version": "1.0.0",
+    "description": "This is a project done with expressJs and stripe for payment gateway and protected through SHA 512",
+    "main": "index.js",
+    "engines": {
+        "node": "14.x"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/daniel-jebarson/Data-tampering-attack-defense.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/daniel-jebarson/Data-tampering-attack-defense/issues"
+    },
+    "homepage": "https://github.com/daniel-jebarson/Data-tampering-attack-defense#readme",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "stripe": "^10.14.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
